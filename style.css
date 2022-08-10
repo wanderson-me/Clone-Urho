@@ -1,0 +1,17 @@
+*{
+    width: 100%;
+  }
+  main{
+    background-color: rgba(61, 90, 254, 1);
+  }
+  header, nav, h1, h2, p, button{
+    color: white;
+  }
+  button{
+    width: 155px;
+    height: 40px;
+    border: 2px solid #ffff;
+    border-radius: 5px;
+    background-color: transparent;
+  }
+  
