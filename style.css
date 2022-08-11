@@ -1,17 +1,120 @@
-*{
-    width: 100%;
-  }
-  main{
-    background-color: rgba(61, 90, 254, 1);
-  }
-  header, nav, h1, h2, p, button{
-    color: white;
-  }
-  button{
-    width: 155px;
-    height: 40px;
-    border: 2px solid #ffff;
-    border-radius: 5px;
-    background-color: transparent;
-  }
-  
+* {
+  font-family: 'IBM Plex Mono', monospace;
+  margin: 0;
+}
+
+section.one,
+header {
+  background-color: #3d5afe;
+}
+img.exemplo-1 {
+  border: solid 7px white;
+}
+section.three,
+section.two {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+aside.five {
+  width: 480px;
+  height: 480px;
+  background-color: #212121;
+}
+aside.six {
+  width: 480px;
+  height: 480px;
+  background-color: #3d5afe;
+}
+.ezem-one,
+.ezem-two {
+  margin: 112px 56px 111px 57px;
+}
+h2.two {
+  padding-bottom: 43px;
+}
+p.one {
+  margin-bottom: 25px;
+}
+button.one {
+  width: 175px;
+  height: 64px;
+  color: #ffffff;
+  background-color: #3d5afe;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+nav {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+title.white {
+  color: #ffffff;
+}
+title.blue {
+  color: #3d5afe;
+}
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+}
+h1.white,
+p.one,
+span {
+  color: #ffffff;
+}
+h1.black {
+  color: #212121;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+p.white {
+  color: #ffffff;
+}
+p.grey {
+  color: #858585;
+}
+button.two {
+  width: 270px;
+  height: 70px;
+  background: #ffffff;
+  border-radius: 7px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #212121;
+  border: none;
+}
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+h2.one {
+  color: #212121;
+  font-size: 24px;
+  line-height: 29px;
+}
+h2.two {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 24px;
+}
