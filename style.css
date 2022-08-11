@@ -2,3 +2,83 @@
   font-family: 'IBM Plex Mono', monospace;
   margin: 0;
 }
+header {
+  font-size: 40px;
+  font-weight: 600;
+}
+button {
+  width: 155px;
+  height: 40px;
+  border-radius: 7px;
+  border: solid 1px #ffff;
+  font-weight: bold;
+  color: #ffff;
+}
+button.nav {
+  background-color: transparent;
+}
+button.offer,
+h2.black {
+  color: rgba(33, 33, 33, 1);
+}
+
+div.offer,
+aside.abouttwo,
+button.portfolio,
+button.interior,
+section.soluctions,
+button.soluctions,
+section.testimonials,
+section.social {
+  background-color: rgba(61, 90, 254, 1);
+}
+aside.aboutone,
+button.portifolio,
+footer {
+  background-color: rgba(33, 33, 33, 1);
+}
+h2 {
+  font-size: 16px;
+  color: rgba(61, 90, 254, 1);
+}
+.white,
+aside.aboutone > p,
+h3,
+.abouttwo > p,
+h3 {
+  color: #ffff;
+}
+a.white {
+  text-decoration: none;
+  font-weight: bold;
+}
+h1 {
+  font-size: 45px;
+  color: rgba(33, 33, 33, 1);
+}
+p {
+  font-size: 14px;
+  color: rgba(133, 133, 133, 1);
+}
+ul {
+  list-style-image: url(/assets/check.svg);
+  font-weight: bold;
+  font-size: 14px;
+}
+li.check {
+  margin: 15px;
+  padding-left: 10px;
+}
+
+.soluctions > aside {
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.testimonials > aside {
+  border: solid 5px red;
+  background-color: #ffff;
+}
+.testimonials > aside > span {
+  color: rgba(61, 90, 254, 1);
+  font-weight: bold;
+}
