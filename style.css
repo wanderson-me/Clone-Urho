@@ -37,14 +37,14 @@ p.one {
   margin-bottom: 25px;
 }
 button.one {
-  width: 175px;
-  height: 64px;
+  width: 155px;
+  height: 44px;
   color: #ffffff;
   background-color: #3d5afe;
   border: 2px solid #ffffff;
   border-radius: 7px;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
 }
 nav {
@@ -93,12 +93,12 @@ p.grey {
   color: #858585;
 }
 button.two {
-  width: 270px;
-  height: 70px;
+  width: 155px;
+  height: 40px;
   background: #ffffff;
   border-radius: 7px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
   color: #212121;
   border: none;
