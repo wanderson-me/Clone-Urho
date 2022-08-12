@@ -2,6 +2,10 @@
   font-family: 'IBM Plex Mono', monospace;
   margin: 0;
 }
+section.testimonials {
+  display: table-row;
+  vertical-align: middle;
+}
 header {
   font-size: 40px;
   font-weight: 600;
@@ -56,10 +60,10 @@ h1 {
   font-size: 45px;
   color: rgba(33, 33, 33, 1);
 }
-p {
-  font-size: 14px;
-  color: rgba(133, 133, 133, 1);
+aside.testimonials > p.testimonials {
+  padding: 15px;
 }
+
 ul {
   list-style-image: url(/assets/check.svg);
   font-weight: bold;
@@ -74,9 +78,19 @@ li.check {
   background-color: rgba(245, 245, 245, 1);
 }
 
-.testimonials > aside {
+div.testimonials {
+  display: flex;
+  padding: auto;
   border: solid 5px red;
+}
+aside.testimonials {
+  width: 350px;
+  height: 350px;
+  border: solid 5px green;
+  margin: 50px;
+  padding-top: 88px;
   background-color: #ffff;
+  display: inline;
 }
 .testimonials > aside > span {
   color: rgba(61, 90, 254, 1);
